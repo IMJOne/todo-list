@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <script src="https://kit.fontawesome.com/f506734a62.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <section class="todo">
+      <header class="header">
+        <img src="img/icon.svg" alt="todo icon" />
+        <h1 class="header__title">TO-DO LIST</h1>
+        <p class="header__today">2023년 01월 18일 😊☕</p>
+      </header>
+      <main>
+        <form class="form__new">
+          <input class="input__text" type="text" placeholder="✍️ 할 일을 추가해보세요" />
+          <button class="btn__add" type="submit">
+            <i class="fa-solid fa-square-plus fa-lg"></i>
+          </button>
+        </form>
+      </main>
+      <ul class="list"></ul>
+    </section>
+  </body>
+</html>

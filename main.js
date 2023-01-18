@@ -46,3 +46,17 @@ form.addEventListener('submit', e => {
   e.preventDefault();
   onAdd();
 });
+
+// 리스트 삭제 및 완료 처리
+list.addEventListener('click', e => {
+  const target = e.target.nodeName === 'I' ? e.target.parentNode : e.target;
+  const id = target.dataset.id;
+  if (target.className === 'btn__delete') {
+    const deleted = document.querySelector(`.item[data-id="${id}"]`);
+    deleted.remove();
+  } else if (target.className === 'checkbox') {
+    const item = target.parentNode;
+    item.classList.toggle('checked');
+  }
+  return;
+});

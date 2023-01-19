@@ -11,20 +11,18 @@
   </head>
   <body>
     <section class="todo">
-      <header class="header">
+      <header class="todo__header">
         <img src="img/icon.svg" alt="todo icon" />
         <h1 class="header__title">TO-DO LIST</h1>
         <p class="header__today">2023년 01월 18일 😊☕</p>
       </header>
-      <main>
-        <form class="form__new">
-          <input class="input__text" type="text" placeholder="✍️ 할 일을 추가해보세요" />
-          <button class="btn__add" type="submit">
-            <i class="fa-solid fa-square-plus fa-lg"></i>
-          </button>
-        </form>
-      </main>
-      <ul class="list"></ul>
+      <form class="todo__form">
+        <input class="form__input" type="text" placeholder="✍️ 할 일을 추가해보세요" />
+        <button class="btn__add" type="submit">
+          <i class="fa-solid fa-square-plus fa-lg"></i>
+        </button>
+      </form>
+      <ul class="todo__list"></ul>
     </section>
   </body>
 </html>

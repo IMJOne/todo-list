@@ -1,10 +1,17 @@
 'use strict';
 
+const today = document.querySelector('.header__today');
 const todoList = document.querySelector('.todo__list');
 const todoForm = document.querySelector('.todo__form');
 const input = document.querySelector('.form__input');
 let todos = []; // 로컬 스토리지에 저장할 리스트 배열
 let id = 0; // 각 리스트의 고유한 아이디로 사용
+
+// 날짜 출력
+const year = new Date().getFullYear();
+const month = new Date().getMonth() + 1;
+const date = new Date().getDate();
+today.innerText = `${year}년 ${month < 10 ? `0${month}` : month}월 ${date < 10 ? `0${date}` : date}일 😊☕`;
 
 // 리스트 추가
 function addTodo(todo) {

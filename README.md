@@ -36,7 +36,7 @@
 
 ## 💻 소스 코드
 
-전체 코드 보러 가기 👉 [Notion](https://www.notion.so/imjone/TO-DO-LIST-d5d802305fa6461b8c3b410fa96528e6?pvs=4)
+전체 코드 보러 가기 👉 [Notion](https://imjone.notion.site/TO-DO-LIST-d5d802305fa6461b8c3b410fa96528e6)
 
 ### 📍 리스트 추가
 

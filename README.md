@@ -2,7 +2,7 @@
 
 # ☑️ TO-DO LIST
 
-자바스크립트 기반 심플 투두 리스트 👉 [Demo](https://imjone.github.io/to-do-list/)
+자바스크립트 기반 심플 투두 리스트 👉 [Demo](https://gardenny.github.io/to-do-list/)
 
 <br />
 
@@ -36,7 +36,7 @@
 
 ## 💻 소스 코드
 
-전체 코드 보러 가기 👉 [Notion](https://imjone.notion.site/TO-DO-LIST-d5d802305fa6461b8c3b410fa96528e6)
+전체 코드 보러 가기 👉 [Notion](https://imjone.notion.site/TO-DO-LIST-d5d802305fa6461b8c3b410fa96528e6?pvs=4)
 
 ### 📍 리스트 추가
 
